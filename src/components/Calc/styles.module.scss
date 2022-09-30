@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap);
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    h1, h3{
+        font-family: 'Maven Pro';
+        
+        
+    }
+    input{
+        font-family: 'Maven Pro';
+        font-weight: 600;
+        font-size: 2rem;
+        width: 14rem;
+        height: 4rem;
+        text-align: center;
+    }
+
+}

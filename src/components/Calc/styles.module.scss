@@ -12,9 +12,31 @@
 
     h1, h3{
         font-family: 'Maven Pro';
+        cursor: pointer;
         
         
     }
+
+    .dNone{
+        display: none;
+    }
+
+    .copy{
+        color: green;
+        padding: 0.2rem 0.6rem;
+        background-color: #00800029;
+        border-radius: 1rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-top: -1rem;
+        animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
     input{
         font-family: 'Maven Pro';
         font-weight: 600;
